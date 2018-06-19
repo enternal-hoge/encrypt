@@ -1,0 +1,7 @@
+version: '2'
+services:
+  encrypt:
+    container_name: encrypt
+    build: .
+    env_file:
+     - .env
